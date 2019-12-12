@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: punkupoz-org
+    provider: github
+    repository: go-jenkins
+  name: punkupoz-org-go-jenkins
+spec:
+  description: Imported application for punkupoz-org/go-jenkins
+  httpCloneURL: https://github.com/punkupoz-org/go-jenkins.git
+  org: punkupoz-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: go-jenkins
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/punkupoz-org/go-jenkins.git

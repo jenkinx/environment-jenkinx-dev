@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: punkupoz-org
+  repo: go-jenkins
+  url: https://github.com/punkupoz-org/go-jenkins.git
+  version: ""
+  versionURL: ""
