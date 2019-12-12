@@ -1,0 +1,10 @@
+adminUser:
+  password: local:jenkinx/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jenkinx@shipcapt.com
+  token: local:jenkinx/pipelineUser:token
+  username: jenkinx
+prow:
+  hmacToken: local:jenkinx/prow:hmacToken
